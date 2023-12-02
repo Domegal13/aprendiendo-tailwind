@@ -91,7 +91,7 @@ const Cards = () => {
             <div className="h-52">
               <img
                 className="h-full w-full object-cover object-center"
-                src="/img/article-3.jpg"
+                src="/img/article-9.jpg"
                 alt="AI"
               />
             </div>

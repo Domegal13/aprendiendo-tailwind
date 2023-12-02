@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <header className="bg-white px-6 shadow">
         <div className="flex justify-between h-16 items-center max-w-6xl mx-auto">
-          <button className=" rounded p-1 -m-1 text-slate-500 hover:text-slate-100 hover:bg-sky-500 transition-colors focus:ring-2 focus:ring-slate-200">
+          <button className=" rounded p-1 -m-1 text-slate-500 cursor-pointer hover:text-slate-100 hover:bg-sky-500 transition-colors focus:ring-2 focus:ring-slate-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -19,8 +19,8 @@ const Header = () => {
               />
             </svg>
           </button>
-          <div className="flex -mr-4 items-center">
-            <div className="hover:rotate-6 duration-200 text-sky-500">
+          <div className="flex -mr-4 items-center ">
+            <div className="hover:rotate-6 duration-200 text-sky-500 hover:cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -38,19 +38,19 @@ const Header = () => {
             </div>
 
             <div className="space-x-8 ml-8 hidden sm:flex">
-              <div className="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors">
+              <div className="text-slate-600 px-3 py-2 cursor-pointer hover:text-sky-500 transition-colors">
                 Home
               </div>
 
-              <div className="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors">
+              <div className="text-slate-600 px-3 py-2 cursor-pointer hover:text-sky-500 transition-colors">
                 About
               </div>
 
-              <div className="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors">
+              <div className="text-slate-600 px-3 py-2 hover:cursor-pointer hover:text-sky-500 transition-colors">
                 Blog
               </div>
 
-              <div className="text-slate-600 px-3 py-2 hover:text-sky-500 transition-colors">
+              <div className="text-slate-600 px-3 py-2 hover:cursor-pointer hover:text-sky-500 transition-colors">
                 Contact
               </div>
             </div>
@@ -82,30 +82,21 @@ const Header = () => {
           </div>
         </div>
         <div className="space-y-1 border-t pb-3 pt-2 sm:hidden">
-          <a
-            href="#"
-            className="block rounded-md bg-sky-500 px-3 py-2 text-white"
-          >
+          <div className="block rounded-md bg-sky-500 px-3 py-2 text-white">
             Home
-          </a>
-          <a
-            href="#"
-            className="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white"
-          >
+          </div>
+
+          <div className="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white">
             About
-          </a>
-          <a
-            href="#"
-            className="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white"
-          >
+          </div>
+
+          <div className="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white">
             Blog
-          </a>
-          <a
-            href="#"
-            className="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white"
-          >
+          </div>
+
+          <div className="block rounded-md px-3 py-2 text-slate-700 transition-colors hover:bg-sky-500 hover:text-white">
             Contact
-          </a>
+          </div>
         </div>
       </header>
     </>
